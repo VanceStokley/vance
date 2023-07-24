@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale = 1.0">
+        <title>Portfolio</title>
+        <link rel = "stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e22077ac06.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">home</a>                                            
+                    </li>
+                    <li>
+                        <a href="#about">about</a>                                            
+                    </li>
+                    <li>
+                        <a href="#services">services</a>                                            
+                    </li>
+                    <li>
+                        <a href="#portfolio">portfolio</a>                                            
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>                                            
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>Tech Solutions</p>
+               <h1>Hi, Im <span>vance Stokley</span> <br> From Lafayette, LA</h1> 
+            </div>
+        </div>
+        </div>
+        <div id="about">
+            <div class="containter">
+                <div class="row">
+                    <div class="about-col-1"> <img src="images/about photo1.jpg" alt=""> </div>
+                    <div class="about-col-2"> <h1 class="sub-title"> About Me </h1>
+                    <p> I am a father of one, A veteran, and a gamer pursuing a career in the Information technology field. I enjoy all aspects of the tech industry
+                        weither that be hardware or software I can provide solutions for you in all aspects of your buisiness. I am a self
+                        starter and a highly motivated person to find an answer to your tech problems. I have years of technical experience and an aptitude for perfection.      
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"><ul>
+                        <li><span>
+                          UI/UX </span> <br> Design/Development of adroid cardova apps</li>
+                    
+                    <li><span>
+                        web Development </span> <br> web app Development </li>
+                  
+                    <li><span>
+                        Database solutions</span> <br>using MySQL, MS SQL Server, and Access</li>
+                  
+                  <li><span>Hardware/network Solutions
+                   </span> <br>Experience troubleshooting small things like printers and scanners to larger things like servers and network issues</li>
+                </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"><ul>
+                        <li><span>
+                            2022-Current </span> <br> Software developer Service Tool CO</li>
+                      
+                      <li><span>
+                          2021-2022</span> <br> database technician at BlueLine Manufactoring </li>
+                    
+                      <li><span>
+                          2018-2021</span> <br>US ARMY Infantryman </li>  
+                       
+                </ul>
+                    </div>
+                    <div class="tab-contents" id="education"><ul>
+                  <li><span>2023
+                   </span> <br>associates in application software development</li>
+                </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="containter">
+                 <h1 class="sub-title1"> My Services</h1>
+                 <div class="services-list">
+                    <div>   
+                        <i class="fa-solid fa-database" style="color: #dee2e8;"></i>                 
+                 <h2>
+                    Database solutions
+                 </h2>
+                 <p>
+                    I offer best in class SQL scripts, microsoft dynamics support, and report forming in several different versions of SQL.
+                 </p>
+                 <a href="#">Learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-code"></i>  
+                <h2>
+                   Web Development/design
+                </h2>
+                <p>
+                   I can take your companies website to the next level with my years of experience doing web development and 
+                   design several charities and small buisinesses have come to me for a 1 stop place to find all of their website design and development solutions
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        <div>
+            <i class="fa-solid fa-network-wired" style="color: #f2f2f2;"></i>
+                <h2>
+                   Hardware/Networking Solutions
+                </h2>
+                <p>
+                   With the skills that I have learned over the years there is no problem too small and no problem too large for me I can help provide you with the best
+                   Technical experience around I have years of experience trouble shooting everything from finger scanners used in warehouses, to switching, subnetting, and server troubleshooting
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="containter">
+            <h1 class="sub-title1"> My Work</h1> 
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work5 (2).png" alt="">
+                    <div class="layer">
+                        <h3>Vances Casino</h3>
+                        <p> this is a web game I made a while back of a Cowboy style blackjack game</p>
+                        <a href="https://vancestokley.github.io/VancesBlackJack/website/index.html"><i class="fa-solid fa-gamepad" style="color: #eaeaec;"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work4 (2).jpg" alt="">
+                    <div class="layer">
+                        <h3>Recovery Underground</h3>
+                        <p> This an online anonymous recovery group that I work with</p>
+                        <a href="https://recoveryunderground.org/"><i class="fa-solid fa-gamepad" style="color: #eaeaec;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 6 (2).jpg" alt="">
+                    <div class="layer">
+                        <h3>Team SGX</h3>
+                        <p> Is a Gaming community that I am currently helping build an online Shop and forum.</p>
+                        <a href="https://www.sgxteam.com/"><i class="fa-solid fa-gamepad" style="color: #eaeaec;"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/VanceStokley" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div id="contact">  
+        <div class="containter">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1"> Contact Me</h1> 
+                    <p> <i class="fa-solid fa-envelope"></i> stokleyvance@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1(337)806-5172</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/VanceStokley"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet" >
+                    <input type="text" name ="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                   </form>   
+                   <span id ="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link")
+                }
+                for( tabcontent of tabcontents )
+                {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu()
+            {
+                sidemenu.style.right = 0;
+            }
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <form name="submit-to-google-sheet">
+            <input name="email" type="email" placeholder="Email" required>
+            <button type="submit">Send</button>
+          </form>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzxMp5HUzcR77loOK0SVJ17QDm9kLui0vrFIvtm1Ya0PKZy0pfqzxORaHeBZc4SXH95/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => 
+                {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function()
+                    {
+                      msg.innerHTML = ""  
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
